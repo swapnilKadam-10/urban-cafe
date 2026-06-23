@@ -12,7 +12,7 @@ function Footer() {
           <p className="script text-4xl text-accent">Cafe</p>
           <p className="mt-4 leading-7 text-white/72">Premium coffee, warm plates, and cozy city evenings.</p>
           <div className="mt-6 flex gap-3">
-            {[FaInstagram, FaFacebookF].map((Icon, index) => <a key={index} href="https://www.instagram.com/theurbancafebaramati/?hl=en" aria-label="Social media profile" className="grid size-10 place-items-center rounded-full bg-white/10 hover:bg-accent hover:text-primary" target="_blank" rel="noopener noreferrer"><Icon /></a>)}
+            {[FaInstagram].map((Icon, index) => <a key={index} href="https://www.instagram.com/theurbancafebaramati/?hl=en" aria-label="Social media profile" className="grid size-10 place-items-center rounded-full bg-white/10 hover:bg-accent hover:text-primary" target="_blank" rel="noopener noreferrer"><Icon /></a>)}
           </div>
         </div>
         <div>
@@ -44,7 +44,7 @@ function Footer() {
           </div>
         </div> */}
       </div>
-      <div className="border-t border-white/10 py-5 text-center text-sm text-white/60">Copyright 2026 The URBAN Cafe. All rights reserved.</div>
+      <div className="border-t border-white/10 py-5 text-center text-sm text-white/60">Copyright @2026 TSK. All rights reserved.</div>
     </footer>
   )
 }

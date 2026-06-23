@@ -18,12 +18,10 @@ function ContactSection() {
           </div>
           <div className="mt-8 rounded-[28px] bg-primary p-6 text-white">
             <h3 className="font-heading text-2xl font-bold">Opening Hours</h3>
-            <p className="mt-4">Monday-Friday: 8:00 AM - 10:00 PM</p>
-            <p>Saturday: 8:00 AM - 11:00 PM</p>
-            <p>Sunday: 9:00 AM - 9:00 PM</p>
+            <p className="mt-4">Monday-Sunday: 10:30 AM - 10:00 PM</p>
           </div>
           <div className="mt-7 flex gap-3 text-white">
-            {[FaInstagram, FaFacebookF, FaXTwitter].map((Icon, index) => <a key={index} href="https://example.com" aria-label="Social media profile" className="grid size-11 place-items-center rounded-full bg-primary hover:bg-accent hover:text-primary"><Icon /></a>)}
+            {[FaInstagram].map((Icon, index) => <a key={index} href="https://www.instagram.com/theurbancafebaramati/?hl=en" aria-label="Social media profile" className="grid size-11 place-items-center rounded-full bg-primary hover:bg-accent hover:text-primary"><Icon /></a>)}
           </div>
         </div>
         <iframe
