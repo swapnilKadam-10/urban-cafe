@@ -44,7 +44,7 @@ function Footer() {
           </div>
         </div> */}
       </div>
-      <div className="border-t border-white/10 py-5 text-center text-sm text-white/60">Copyright @2026 TSK. All rights reserved.</div>
+      <div className="border-t border-white/10 py-5 text-center text-sm text-white/60">Copyright @2026 K&K Solutions. All rights reserved.</div>
     </footer>
   )
 }
